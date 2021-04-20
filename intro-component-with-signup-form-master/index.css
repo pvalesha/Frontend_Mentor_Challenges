@@ -1,0 +1,173 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.container{
+    width:80%;
+    height:100%;
+    margin-top:5rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component1{
+    margin-top:0rem;
+    width:40%;
+    margin-right: 15px;
+}
+
+.heading h1{
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+}
+
+.detail{
+    font-weight: 400;
+    color:#fff;
+    opacity: .9;
+}
+
+.component2{
+    width:40%;
+}
+
+.free_trial{
+    background-color:hsl(248, 32%, 49%) ;
+    color:#fff;
+    border-radius: 10px;
+    font-size: 17px;
+    width: auto;
+    padding: 1rem 2rem;
+    text-align:center;
+    font-weight: 700;
+    box-shadow: 0 5px 1px hsla(249, 10%, 26%, 0.623);
+}
+
+.free_trial span{
+    opacity: .8;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form{
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 1px hsla(249, 10%, 26%, 0.623);
+    padding: 2rem;
+}
+
+input{
+    width: 90%;
+    height: auto;
+    padding: 1rem ;
+    margin: 15px 0;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: hsl(246, 25%, 77%);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.claim{
+    margin-top: 20px;
+    width: 98%;
+    height: 3.3rem;
+    font-weight: 400;
+    font-size: 17px;
+    background-color: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border-style: none;
+    color:#fff;
+}
+
+p{
+    font-size: 10px;
+    text-align: center;
+    opacity: 1;
+    color:hsl(246, 25%, 77%);
+}
+
+p > span{
+    color: hsl(0, 100%, 74%);
+  
+    font-weight: 800;
+}
+
+
+@media(max-width:700px){
+    body{
+        background-image: url(./images/bg-intro-mobile.png);   
+    }
+    .container{
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        
+    }
+    .component1{
+        margin-top:0rem;
+        width:90%;
+        text-align: center;
+        margin: 0;
+    }
+    .heading h1{
+        font-size: 28px;
+    }
+    
+    .detail{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .component2{
+        margin-top:3rem;
+        width:100%;
+    }
+    .free_trial{
+        font-size: 17px;
+    }
+    
+    .free_trial span{
+        font-size: 15px;
+    }
+    .form{
+        margin-top: 25px;
+        padding-top: 1rem;
+    }
+    
+    input{
+        width: 90%;
+        height: auto;
+        padding: 1rem ;
+        margin: 10px 0;
+    }
+    .claim{
+        width: 100%;
+    }
+    
+    p{
+        font-size: 9px;
+        
+    }
+    
+    p > span{
+        color: hsl(0, 100%, 74%);
+      
+        font-weight: 800;
+    }
+    
+}

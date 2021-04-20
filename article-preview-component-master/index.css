@@ -1,0 +1,139 @@
+.attribution { font-size: 15px; margin:1em;
+    text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
+text-decoration: none; }
+
+*{
+    margin:0;
+    padding:0;
+    
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    min-height: 100vh;
+    display:grid;
+    place-items: center;
+    font-weight: 500;
+    color:hsl(212, 23%, 69%);
+    
+}
+
+.component{         
+    background-color: #fff;
+    Width:45%;
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 4rem;
+    margin-right: 4rem;
+}
+.left_img { 
+    background-image: url("./images/drawers.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 300px;
+    height: 300px;
+    
+}
+.right_sec{ 
+    width:500px;
+    padding: 2rem;
+}
+
+
+.right_title h2{
+    color:hsl(217, 19%, 35%);
+    font-size: 1.25rem;
+    margin: 0;
+    font-weight: 700;
+}
+.right_detail{ 
+ 
+    font-size: 0.9rem;
+    font-weight:500;
+    color:hsl(212, 23%, 69%);
+    margin:0.85rem 0;
+}
+.profile{ 
+    display:flex;
+    align-items:center;
+    margin-top: 1.2rem;
+
+}
+.profile_img{
+    width:50px;
+    border-radius: 50%;
+}
+.profile_list{
+    list-style: none;
+    margin-left: 0.8rem;
+}
+.profile_name{
+    font-weight: 700;
+    font-size:1rem;
+    line-height: 1.5em;
+    color :hsl(217,19%,35%);
+}
+
+.profile_date{
+    font-size: 0.85rem;
+}
+.button{
+    height: 2.7em;
+    width:2.7em;
+    border-radius: 50%;
+    border:none;
+    margin-left:8rem;
+}
+
+
+@media(max-width:700px){
+    .component{
+        width: 75%;
+        flex-direction: column;
+        margin: 0;
+    }
+    .left_img{
+        width:100%;
+        height:300px;
+        border-radius:0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .right_sec{
+        width:100%;
+        padding: 1rem;
+    }
+    .right_title h2{
+        
+        font-size: 1rem;
+        margin: 0;
+        font-weight: 700;
+    }
+    .right_detail{ 
+     
+        font-size: 0.8rem;
+        font-weight:500;
+        color:hsl(212, 23%, 69%);
+        margin:0.85rem 0;
+    }
+
+    .button{
+        height: 2em;
+        width:2em;
+        border-radius: 50%;
+        border:none;
+        margin-left:2rem;
+    }
+
+
+    
+}

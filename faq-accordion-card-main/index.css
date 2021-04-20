@@ -1,0 +1,123 @@
+
+   
+
+*
+{
+    margin:0 auto;
+    padding:0;
+}
+
+body{
+    background: linear-gradient(hsl(273, 75%, 66%),hsl(228, 45%, 44%)) ;
+    min-height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding: 0;
+   }
+   
+.box img{
+    margin-left:11rem;
+    margin-top: 13.7rem;
+    height: 27%;
+    width: 14%;
+    display: flex;
+    
+    position: absolute;
+    
+}
+.container{ 
+    width: 60%;
+    align-items: center;
+    background-color: #fff;
+    height:33em;
+    border-radius: 20px;
+    box-shadow: -2px 5px 20px rgba(0, 0, 0, .35);
+    
+
+}
+.component{ 
+    margin-left:0;
+    margin-top: 5rem;
+    background: url("images/bg-pattern-desktop.svg");
+    background-size: cover;
+    height: 100%;
+    width: 50rem;
+    background-repeat: no-repeat;
+    background-position: left -390px top -180px;
+    display: flex;
+    
+}
+.left_sec{
+    margin-left:0;
+    margin-top: 5rem;
+    background: url("images/illustration-woman-online-desktop.svg");
+    background-size: contain;
+    height: 100%;
+    width: 85%;
+    background-repeat: no-repeat;
+    background-position: left -90px top -0px;
+    
+}
+
+.right_sec { 
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    width:50%;
+    position: relative;
+
+}
+.right_sec h1{ 
+    margin:5rem 0 3rem 0;
+    font-size: 30px;
+    color:hsl(238, 29%, 16%);
+}
+
+.right_sec > div{
+    border-bottom: 1px solid hsl(240,5%,91%);
+}
+
+.right_sec span{ 
+    transition:0.4s;
+    float: right;
+    position:inherit;
+    
+}
+
+label{ 
+    display: block;
+    cursor:pointer;
+    width: 100%;
+    align-items: left;
+    padding: 15px 15px 10px 0px;
+    transition:0.4s;
+}
+
+label:hover{
+    color:hsl(14,88%,65%);
+}
+input{
+    display:none;
+}
+.content{
+    padding:5px 0;
+    color:hsl(240,6%,50%);
+    font-size:14px;
+    overflow:hidden;
+    height:0;
+    opacity:0;
+    transition :all 0.4s;
+}
+input:checked ~.content{
+    height:64px;
+    opacity:1;
+}
+
+input:checked ~ label{
+    color:hsl(238, 29%, 16%);
+    font-weight:700;
+}
+input:checked ~ label span{
+    transform:rotate(180deg);
+
+}
+

@@ -1,0 +1,158 @@
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 3rem;
+}
+
+.heading{
+    font-size: 40px;
+    margin-top:1rem;
+    letter-spacing: 1px;
+    color:hsl(0, 0%, 59%);
+    font-weight: 300;
+    margin-bottom:0;
+}
+
+.heading strong{
+    color:black;
+}
+
+.detail{
+    font-weight:300;
+    font-size: 17px;
+    margin: 2rem;
+}
+
+.email_ip{
+    font-size: 17px;
+    color:hsl(0, 0%, 59%);
+    width: 17rem;
+    height: 0rem;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 1.5rem;
+    border-color: hsl(0, 0%, 59%);
+    opacity: .5;
+}
+
+button{
+    color: white;
+    font-weight: 300;
+    width: 12rem;
+    font-size: 17px;
+    padding: 1rem;
+    border-radius: 50px;
+    margin-left: 10px;
+    /* box-shadow: 0 10px 10px hsla(210, 78%, 69%, 0.76) ; */
+    background-color: hsl(210, 83%, 48%);
+    border-style: none;
+
+}
+
+.image img{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 18rem;
+    width: 30rem;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon img{
+    padding: 5px 15px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.copy{
+    font-size: 10px;
+    margin: 1rem;
+}
+
+
+@media(max-width:560px){
+    body{
+        margin:2px;
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        text-align: center;
+    }
+    .logo{
+        margin-top: 4rem;
+    }
+    .heading{
+        font-size: 30px;
+        margin-top:1rem;
+        letter-spacing: 0px;
+        
+    }
+    .email_ip{
+        font-size: 15px;
+        color:hsl(0, 0%, 59%);
+        width: 15rem;
+        height: 0rem;
+        border-radius: 50px;
+        border-style: solid;
+        padding: 1.1rem;
+        border-color: hsl(0, 0%, 59%);
+        opacity: .5;
+        align-content: center;
+    }
+    
+    button{
+        color: white;
+        
+        font-weight: 300;
+        width: 17.5rem;
+        font-size: 15px;
+        padding: .7rem;
+        border-radius: 50px;
+        margin-left: 0;
+        margin-top: 10px;
+        /* box-shadow: 0 10px 10px hsla(210, 78%, 69%, 0.76) ; */
+        background-color: hsl(210, 83%, 48%);
+        border-style: none;
+    
+    }
+    
+    .image img{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        height: 13rem;
+        width: 20rem;
+    }
+    
+    .social-icon{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icon img{
+        padding: 5px 15px;
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .copy{
+        font-size: 10px;
+        margin: 2rem;
+    }
+    
+}

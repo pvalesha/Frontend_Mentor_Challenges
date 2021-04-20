@@ -1,0 +1,91 @@
+.attribution { font-size: 11px; text-align: center;
+margin:10px;font-size: 15px;}
+.attribution a { color: hsl(228,45%,44%);
+text-decoration: none; }
+body {
+    padding: 0;
+    margin: 0;
+
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: top -35vh left -20vw, bottom -55vh right -12vw;
+ 
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+}
+main .card{
+    max-width: 360px;
+    background-color: white;
+    margin:auto;
+    border-radius: 15px;
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, .15);
+    margin-top: 150px;
+    overflow: hidden; 
+    position: relative;
+}
+
+header{
+    background: #893278;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-size: cover;
+    height:150px;
+    position: relative;
+}   
+
+header .avatar{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background:red;
+    background-image: url(./images/image-victor.jpg);
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    bottom: -55px;
+    left:50%;
+    border: 5px solid white;
+    transform: translate(-50%);
+}
+
+.content{ 
+    text-align: center;
+    padding-top:50px;
+}
+h2{font-size:1em;}
+
+h2 .age
+{
+opacity:0.5;
+display: inline-block;
+margin-left: 0.5em;
+margin-bottom: 0.25em;
+
+}
+.label{
+    opacity:0.75;
+    font-size:0.85em;
+}
+
+footer{
+    display:flex;
+    border-top:1px solid  rgba(0,0,0,0.1);
+    margin-top:25px;
+
+}
+.col{ flex:1;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction: column;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+h3{margin-top: 8px;;
+    margin-bottom: 0.1em;
+}
+small{font-size: 0.75em;
+opacity:0.75}
+

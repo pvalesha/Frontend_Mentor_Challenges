@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    letter-spacing: 1px;
+   
+}
+.logo img{
+    margin-top: 8rem;
+    height:6rem;
+}
+.header{
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+}
+.detail_h{
+    margin-top: 1rem;
+    text-align: center;
+    color:hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+}
+
+.download_button{
+    margin-top: 3rem;
+    display:flex;
+    justify-content: center;
+}
+.btn{
+    margin:0 1rem;
+    cursor: pointer;
+    padding:1rem 2rem;
+    width:14rem;
+    font-size: 15px;
+    height:3rem;
+    border-radius: 50px;
+    border-style: none;
+    color:white;
+    font-weight: 400;
+}
+
+.ios-download{
+    box-shadow:0 5px 5px hsla(171, 66%, 44%, 0.507);
+    background-color:hsl(171, 66%, 44%);
+}
+
+.ios-download:hover{
+    background-color:hsla(171, 66%, 44%, 0.815) ;
+}
+.mac-download{
+    box-shadow:0 5px 5px hsla(233, 100%, 69%, 0.507);
+    background-color: hsl(233, 100%, 69%);
+}
+
+.mac-download:hover{
+    background-color: hsla(233, 100%, 69%, 0.781);
+}
+
+.component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.component1{
+    width: 40%;
+}
+
+.heading{
+    font-size:20px ;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+
+}
+.detail{
+    font-size: 16px;
+    color:hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.container11{
+    margin-top: 10rem;
+    display: flex;
+    
+    align-items: center;
+    /* flex-direction: column; */
+       
+}
+
+.component2_img{
+    margin-left: 0;
+    margin-right: 5rem;
+
+}
+.component2_img img{
+    height:auto;
+    width:100%;
+    
+}
+.component2_detail {
+    width:25%;
+}
+
+.sec{
+    margin-bottom:3rem;
+}
+.sec > h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 0;
+}
+.sec > p{
+    color:hsl(201, 11%, 66%);
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.container2{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 > .component2_img{
+    margin-top: 2rem;
+}
+
+.component1{
+    width: 50%;
+}
+
+.container3{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container3 > .component1{
+    width: 40%;
+    margin: 2rem 0;
+}
+
+.container3 > .component2{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:1rem 0;
+}
+
+.sec_1{
+    width: 25%;
+}
+
+.icon{
+    text-align: center;
+    margin: 2rem 0;
+    /* display: inline; */
+}
+
+.sec_1 > .detail{
+    font-size:15px;
+}
+
+.container4{
+    margin: 5rem 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 img{
+    width: 100%;
+    height: auto;
+}
+.container5{
+    width: 40%;
+    margin:5rem 0;
+}
+
+footer{
+    width: 100%;
+    margin: 3rem 0;
+   align-items: center;
+   background-color: hsl(210, 8%, 95%);
+   height:auto;
+   margin-bottom: 0;
+   flex-direction: column;
+}
+.container6{
+    display: flex;
+    flex-direction: row;
+    height: 7rem;
+}
+
+.container6 > .logo{
+    width: 25%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.container6 > .logo img{
+    margin-top: 0;
+    height: 3rem;
+    
+}
+
+.container6 > .links{
+    font-size: 10px;
+    display: flex;
+    height:auto;
+    flex-wrap: wrap;
+    margin:1.5rem 3rem;
+    align-items:space-between;
+}
+
+.links a{
+    color:hsl(210, 10%, 33%);
+    text-decoration: none;
+    width: 33.3333%;
+    height:1rem;
+    font-size: 15px;
+}
+
+a:hover{
+    color:hsl(171, 66%, 44%);
+}
+
+.social{
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    float: right;
+    margin: 0 3rem;
+    display: flex;
+}
+
+.social a{
+    margin:0 1rem;
+}
+
+.social a :hover{
+   color:hsl(171, 66%, 44%);
+}
+
+
+@media(max-width:700px){
+    body{
+        background: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size :contain;   
+        width:100%;
+        margin: 0rem;
+        padding: 0;
+            
+    }
+    .logo img{
+        margin-top: 5rem;
+        height:7rem;
+    }
+    .header{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    
+    .heading h1{
+        font-size: 33px;
+    }
+    
+    .download_button{
+        margin-top: 3rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        letter-spacing: 2px;
+        margin:1rem 0;
+        cursor: pointer;
+        padding:1rem 3rem;
+        width:20rem;
+        font-size: 17px;
+    }
+    .component1{
+        width: 100%;
+    }
+    .container11{
+        margin-top: 5rem;
+        flex-direction:column;          
+    }
+    
+    .component2_img{
+        margin:10px;    
+    }
+
+    .component2_detail {
+        width:100%;
+        text-align:center;
+        margin:1rem;
+    }
+    
+    .sec{
+        margin:3rem 0;
+    }
+    .container2{
+        margin: 2rem 0;
+    }
+    
+    .component1{
+        width: 100%;
+    }
+    .container3{
+        width: 100%;
+
+    }
+    
+    .container3 > .component1{
+        width: 100%;
+        margin: 2rem 0;
+    }
+    
+    .container3 > .component2{
+        flex-direction: column;
+        
+    }
+    
+    .sec_1{
+        width: 90%;
+    }
+    .container4{
+        width:auto;
+        flex-direction:column;
+    }
+    
+    .container4 img{
+        width: auto;
+        height: auto;
+        margin:2rem 0;
+    }
+    .container5{
+        width: 100%;
+        margin:5rem 0;
+    }
+    footer{
+        width: 100%;
+        margin:0;
+       height:100%;
+       flex-direction: row;
+    }
+    .container6{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content:center;
+        align-items:center;
+    }
+    .container6 > .logo{
+        width: 100%;
+        text-align: center;
+        margin:2rem 0;
+
+    }
+    .container6 > .logo img{
+        height: 3rem;
+        text-align: center;
+    }
+    
+    .container6 > .links{
+        font-size: 10px;
+        display: flex;
+        height:auto;
+        flex-wrap:nowrap;
+        margin:0;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .links a{
+        width: 100%;
+        margin:1rem 0;
+        text-align: center;
+    }
+    
+    
+    .social{
+        justify-content: center;
+        width: 100%;
+        float: center;
+        margin: 2rem 5rem;
+        display: flex;
+    }
+    
+    .social a{
+        margin:0 1rem;
+    }
+    
+    .social a :hover{
+       color:hsl(171, 66%, 44%);
+    }
+
+}
