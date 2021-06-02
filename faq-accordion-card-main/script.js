@@ -5,6 +5,10 @@ inputs.forEach(input => {
         inputs.forEach(input => {
             if(input.checked){
                 input.checked = false;
+
+
+
+                
                 e.target.checked = true; 
             }
         })
