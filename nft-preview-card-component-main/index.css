@@ -1,0 +1,69 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Outfit', sans-serif;
+	background-color:hsl(217, 54%, 11%);
+}
+
+.outer-sec{
+	width:350px;
+	heigth:auto;
+	background-color:hsl(216, 50%, 16%);
+	padding:25px;
+	border-radius:20px;
+	
+}
+.title{
+	font-size:22px;
+	font-weight:600;
+	color:white;
+	display:block;
+	padding:3% 0;
+}
+
+.title:hover{
+	color:hsl(178, 100%, 50%);
+	cursor:pointer;
+}
+.description{
+	font-size:20px;
+	margin:0 0 20px 0;
+	color:hsl(215, 51%, 70%);
+	font-weight:300;
+}
+.section-1{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	padding: 5% 0;
+}
+
+.rate{
+	color: hsl(178, 100%, 50%);
+	font-weight:600;
+}
+.time{
+	color:hsl(215, 51%, 70%);
+	
+}
+hr{
+	border: 0;
+  height: 0;
+	border-top: 1px solid hsl(215, 51%, 70%);
+}
+.name-sec{
+	display:flex;
+	padding: 3% 0;
+	
+}
+.name{
+	color:hsl(215, 51%, 70%);
+	font-weight:300;
+}
+.name>a{
+	color:white;
+}
+.name>a:hover{
+	color:hsl(178, 100%, 50%);
+	cursor:pointer;
+}
