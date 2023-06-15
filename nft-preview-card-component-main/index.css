@@ -13,6 +13,14 @@ body{
 	border-radius:20px;
 	
 }
+
+.equi-img{
+	width:350px;
+	height:auto;
+	border-radius: 20px;
+	
+}
+
 .title{
 	font-size:22px;
 	font-weight:600;
@@ -54,6 +62,7 @@ hr{
 .name-sec{
 	display:flex;
 	padding: 3% 0;
+	align-items: center;
 	
 }
 .name{
@@ -66,4 +75,20 @@ hr{
 .name>a:hover{
 	color:hsl(178, 100%, 50%);
 	cursor:pointer;
+}
+.sec-icon{
+	display:flex;	
+	align-items: center;
+}
+.icon{
+	width:16px;
+	height:16px;
+	margin:0 8%;
+}
+.avatar{
+	width:30px;
+	height:30px;
+	margin:0 5% 0 0;
+	border:1px solid white;
+	border-radius:50%;
 }
